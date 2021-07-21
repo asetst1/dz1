@@ -15,7 +15,7 @@ class Triangle:
     def area(self):
         poluperimeter = 0.5 * (self.A + self.B + self.C)
         areaTriangle = (poluperimeter * (poluperimeter - self.A) * (poluperimeter - self.B) * (
-                    poluperimeter - self.C)) ** 0.5
+                poluperimeter - self.C)) ** 0.5
         return areaTriangle
 
 
